@@ -2,11 +2,10 @@
 //  testSantanderTests.swift
 //  testSantanderTests
 //
-//  Created by Paulo Lazarini on 22/05/22.
+//  Created by Paulo Lazarini on 16/06/22.
 //
 
 import XCTest
-@testable import testSantander
 
 class testSantanderTests: XCTestCase {
 
@@ -28,7 +27,7 @@ class testSantanderTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
