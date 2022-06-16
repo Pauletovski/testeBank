@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A242B649F880631FC564F0F /* Pods_testSantander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5403CAAD6B97576F58B3631 /* Pods_testSantander.framework */; };
 		E0179D0C285A334C00376393 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0179D0B285A334C00376393 /* ValidationService.swift */; };
 		E0179D21285AE08600376393 /* loginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0179D20285AE08600376393 /* loginTest.swift */; };
 		E01D50A9285051740085D6D6 /* InfosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D50A8285051740085D6D6 /* InfosManager.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		2ACF8B73FBD203474AB510BF /* Pods-testSantander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSantander.debug.xcconfig"; path = "Target Support Files/Pods-testSantander/Pods-testSantander.debug.xcconfig"; sourceTree = "<group>"; };
 		94DA196A4601E0A222DFC14D /* Pods-testSantander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSantander.release.xcconfig"; path = "Target Support Files/Pods-testSantander/Pods-testSantander.release.xcconfig"; sourceTree = "<group>"; };
+		A5403CAAD6B97576F58B3631 /* Pods_testSantander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSantander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0179D0B285A334C00376393 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		E0179D17285AE06300376393 /* testSantanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSantanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0179D20285AE08600376393 /* loginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTest.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A242B649F880631FC564F0F /* Pods_testSantander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +98,7 @@
 		9783AA538FA3D9A14A26627E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5403CAAD6B97576F58B3631 /* Pods_testSantander.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
