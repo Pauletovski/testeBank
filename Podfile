@@ -5,10 +5,8 @@ target 'testSantander' do
 
   # Pods for Flash Chat iOS13
   
-  pod 'CLTypingLabel' , '~> 0.4.0'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
-  pod 'IQKeyboardManagerSwift'
-  pod 'Alamofire'
+  pod 'Firebase/Storage'
 
 end

@@ -19,8 +19,6 @@ class ViewController: UIViewController, UITableViewDataSource, DashboardManagerD
     
     var infosManager = InfosManager()
     
-//    var getData = GetData()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource, DashboardManagerD
     }
 
     func didUpdateInfo(info: InfosModel) {
-        DispatchQueue.main.async { [self] in
+        DispatchQueue.main.async {
         }
     }
     
